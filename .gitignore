@@ -1,0 +1,41 @@
+# Environments and caches
+.venv/
+.signal-venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build products
+build/
+dist/
+*.egg-info/
+
+# Regenerable recordings, plots, experiment outputs and working files
+/output/
+/outputs/
+/presentation_figures/
+/tmp/
+/data/generated/
+
+# Local secrets and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+local_config.*
+secrets.*

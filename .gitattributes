@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+# Preserve the exact historical detector fingerprint, including its final newline.
+src/brain_states/state_detection.py -text
+*.png -text
+*.pdf -text
+*.gif -text
+*.npz -text
+*.npy -text

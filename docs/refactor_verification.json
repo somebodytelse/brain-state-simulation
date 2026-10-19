@@ -1,0 +1,33 @@
+{
+  "original_tests": 21,
+  "current_tests": 25,
+  "legacy_test_entry_points_passed": true,
+  "installation": "Fresh Python 3.12 environment; pinned runtime dependencies; editable and ordinary wheel installation verified.",
+  "full_workflow_modules": [
+    "simulation",
+    "baseline",
+    "noise_robustness",
+    "adaptive_rms",
+    "connectivity",
+    "presentation",
+    "noisy_presentation"
+  ],
+  "numeric_comparison": {
+    "npz_arrays": 182,
+    "npy_arrays": 3,
+    "csv_rows": 1248,
+    "png_figures": 18
+  },
+  "original_artifacts_unchanged": 58,
+  "unchanged_scientific_definitions": 23,
+  "detector_sha256": "e4c9fea33d5bf3a94e1c8dc0f1f97ddc14a291e630b9c1d37b9157b6b9c48093",
+  "baseline_metrics_unchanged": true,
+  "git_index_modified": false,
+  "remote_pushed": false,
+  "limitations": [
+    "Hosted Python 3.10/3.12 CI is configured but has not run here.",
+    "Optional historical clustering dependencies were not installed/tested.",
+    "Project license is not selected.",
+    "Previously staged IDE files require manual index cleanup before committing."
+  ]
+}

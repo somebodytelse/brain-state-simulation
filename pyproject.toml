@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overlapping-brain-states"
+version = "0.1.0"
+description = "Exploratory overlapping brain-state experiments on synthetic multichannel signals"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+legacy = ["scipy>=1.10", "scikit-learn>=1.2"]
+
+[project.scripts]
+brain-states-simulate = "brain_states.simulation:main"
+brain-states-baseline = "brain_states.experiments.baseline:main"
+brain-states-noise = "brain_states.experiments.noise_robustness:main"
+brain-states-adaptive = "brain_states.experiments.adaptive_rms:main"
+brain-states-connectivity = "brain_states.experiments.connectivity:main"
+brain-states-present = "brain_states.experiments.presentation:main"
+brain-states-present-noise = "brain_states.experiments.noisy_presentation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,5 @@
+sigma,seed,detector,channel_activity_f1,temporal_iou,membership_jaccard,discovered_states,unmatched_true_states,unmatched_discovered_states
+0.05,20261015,adaptive RMS,0.9870839021316813,0.9801769151968015,1.0,3,[],[]
+0.1,20261015,adaptive RMS,0.9891035426646312,0.9756590574245253,1.0,3,[],[]
+0.15,20261015,adaptive RMS,0.9895393068469992,0.7236856148301397,0.75,4,[],[4]
+0.2,20261015,adaptive RMS,0.9898893653062305,0.7213132053631159,0.75,4,[],[4]
